@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChaTa</string>
+    <string name="title_activity_find_talent">FindTalent</string>
+    <string name="title_find">徵才藝</string>
+    <string name="title_draw">抽卡</string>
+    <string name="title_chat">聊天</string>
+    <string name="title_settings">設定</string>
+    <string name="title_notification">通知</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list_talent">ListTalent</string>
+</resources>

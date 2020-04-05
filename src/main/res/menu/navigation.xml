@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/findtalenticon"
+        android:title="@string/title_find" />
+
+    <item
+        android:id="@+id/navigation_draw"
+        android:icon="@drawable/changeicon"
+        android:title="@string/title_draw" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chaticon"
+        android:title="@string/title_chat" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settingicon"
+        android:title="@string/title_settings" />
+
+
+
+</menu>

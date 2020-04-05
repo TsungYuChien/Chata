@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    android:orientation="vertical"
+    android:background="@color/mainColor"
+    android:id="@+id/registerLayout">
+
+    <ImageView
+        android:id="@+id/mainlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/login_icon" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/edtMail"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/login_mail"
+        android:drawablePadding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mainlogo"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/edtPassword"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/login_pass"
+        android:hint="Password"
+        android:layout_below="@id/edtMail"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:id="@+id/edtCheckpd"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/login_confirm"
+        android:hint="Verify Password"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_round"
+        android:layout_below="@id/edtPassword"
+        android:layout_centerHorizontal="true"
+        android:text="註冊"
+        android:textAllCaps="false"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>
